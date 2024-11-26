@@ -1,0 +1,242 @@
+{
+   "orders":{
+   	  "id": 1,
+      "name":"orders",
+      "slug":"orders",
+      "title":"Orders",
+      "menu_title":"Orders",
+      "menu_enabled":1,
+      "menu_order": 1,
+      "parent":0
+   },
+   "create-orders":{
+   	  "id": 6,
+      "name":"create orders",
+      "slug":"create-orders",
+      "title":"Create Order",
+      "menu_title":"Create Order",
+      "menu_enabled":0,
+      "menu_order": 1,
+      "parent":1
+   },
+   "update-orders":{
+   	  "id": 7,
+      "name":"update orders",
+      "slug":"update-orders",
+      "title":"Update Order",
+      "menu_title":"Update Order",
+      "menu_enabled":0,
+      "menu_order": 2,
+      "parent":1
+   },
+   "list-orders":{
+   	  "id": 8,
+      "name":"list orders",
+      "slug":"list-orders",
+      "title":"Order List",
+      "menu_title":"Order List",
+      "menu_enabled":0,
+      "menu_order": 3,
+      "parent":1
+   },
+   "delete-orders":{
+   	  "id": 9,
+      "name":"delete orders",
+      "slug":"delete-orders",
+      "title":"Delete Order",
+      "menu_title":"Delete Order",
+      "menu_enabled":0,
+      "menu_order": 4,
+      "parent":1
+   },
+   "view-order":{
+   	  "id": 10,
+      "name":"view orders",
+      "slug":"view-orders",
+      "title":"View Order",
+      "menu_title":"View Order",
+      "menu_enabled":0,
+      "menu_order": 5,
+      "parent":1
+   },
+   "bookings":{
+   	  "id": 2,
+      "name":"bookings",
+      "slug":"bookings",
+      "title":"Bookings",
+      "menu_title":"Bookings",
+      "menu_enabled":1,
+      "menu_order": 2,
+      "parent":0
+   },
+   "create-bookings":{
+   	  "id": 11,
+      "name":"create bookings",
+      "slug":"create-bookings",
+      "title":"Create Bookings",
+      "menu_title":"Create Bookings",
+      "menu_enabled":0,
+      "menu_order": 1,
+      "parent":2
+   },
+   "update-bookings":{
+   	  "id": 12,
+      "name":"update bookings",
+      "slug":"update-bookings",
+      "title":"Update Bookings",
+      "menu_title":"Update Bookings",
+      "menu_enabled":0,
+      "menu_order": 2,
+      "parent":2
+   },
+   "list-bookings":{
+   	  "id": 13,
+      "name":"list bookings",
+      "slug":"list-bookings",
+      "title":"Bookings List",
+      "menu_title":"Bookings List",
+      "menu_enabled":0,
+      "menu_order": 3,
+      "parent":2
+   },
+   "delete-bookings":{
+   	  "id": 14,
+      "name":"delete bookings",
+      "slug":"delete-bookings",
+      "title":"Delete Bookings",
+      "menu_title":"Delete Bookings",
+      "menu_enabled":0,
+      "menu_order": 4,
+      "parent":2
+   },
+   "view-bookings":{
+   	  "id": 15,
+      "name":"view bookings",
+      "slug":"view-bookings",
+      "title":"View Bookings",
+      "menu_title":"View Bookings",
+      "menu_enabled":0,
+      "menu_order": 5,
+      "parent":2
+   },
+   "mealdeal":{
+   	  "id": 3,
+      "name":"meal deal",
+      "slug":"meal-deal",
+      "title":"Meal deal",
+      "menu_title":"Meal deal",
+      "menu_enabled":1,
+      "menu_order": 3,
+      "parent":0
+   },
+   "create-mealdeal":{
+   	  "id": 16,
+      "name":"create mealdeal",
+      "slug":"create-mealdeal",
+      "title":"Create Meal Deal",
+      "menu_title":"Create Meal Deal",
+      "menu_enabled":0,
+      "menu_order": 1,
+      "parent":3
+   },
+   "update-mealdeal":{
+   	  "id": 17,
+      "name":"update mealdeal",
+      "slug":"update-mealdeal",
+      "title":"Update Meal Deal",
+      "menu_title":"Update Meal Deal",
+      "menu_enabled":0,
+      "menu_order": 2,
+      "parent":3
+   },
+   "list-mealdeal":{
+   	  "id": 18,
+      "name":"list mealdeal",
+      "slug":"list-mealdeal",
+      "title":" Meal Deal List",
+      "menu_title":"Meal Deal List",
+      "menu_enabled":0,
+      "menu_order": 3,
+      "parent":3
+   },
+   "delete-mealdeal":{
+   	  "id": 19,
+      "name":"delete mealdeal",
+      "slug":"delete-mealdeal",
+      "title":"Delete Meal Deal",
+      "menu_title":"Delete Meal Deal",
+      "menu_enabled":0,
+      "menu_order": 4,
+      "parent":3
+   },
+   "view-mealdeal":{
+   	  "id": 20,
+      "name":"view mealdeal",
+      "slug":"view-mealdeal",
+      "title":"View Meal Deal",
+      "menu_title":"View Meal Deal",
+      "menu_enabled":0,
+      "menu_order": 5,
+      "parent":3
+   },
+   "profile":{
+   	  "id": 4,
+      "name":"profile",
+      "slug":"profile",
+      "title":"Profile",
+      "menu_title":"Profile",
+      "menu_enabled":1,
+      "menu_order": 4,
+      "parent":0
+   },
+    "update-profile":{
+   	  "id": 21,
+      "name":"update profile",
+      "slug":"update-profile",
+      "title":"Update Profile",
+      "menu_title":"Update Profile",
+      "menu_enabled":0,
+      "menu_order": 1,
+      "parent":4
+   },
+   "view-profile":{
+   	  "id": 22,
+      "name":"view profile",
+      "slug":"view-profile",
+      "title":"View Profile",
+      "menu_title":"View Profile",
+      "menu_enabled":0,
+      "menu_order": 2,
+      "parent":4
+   },
+   "settings":{
+   	  "id": 5,
+      "name":"settings",
+      "slug":"settings",
+      "title":"Settings",
+      "menu_title":"Settings",
+      "menu_enabled":1,
+      "menu_order": 5,
+      "parent":0
+   },
+   "features":{
+   	  "id": 23,
+      "name":"features",
+      "slug":"features",
+      "title":"Features",
+      "menu_title":"Features",
+      "menu_enabled":0,
+      "menu_order": 1,
+      "parent":5
+   },
+   "access-control":{
+   	  "id": 24,
+      "name":"access control",
+      "slug":"access-control",
+      "title":"Access Control List",
+      "menu_title":"Access Control List",
+      "menu_enabled":0,
+      "menu_order": 2,
+      "parent":5
+   }
+}

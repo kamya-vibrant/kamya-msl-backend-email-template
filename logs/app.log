@@ -1,0 +1,563 @@
+[2024-11-18T14:07:06.276077+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"91a81d9"}
+[2024-11-18T14:07:06.417694+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"91a81d9"}
+[2024-11-18T14:07:06.781184+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"13db834"}
+[2024-11-18T14:07:06.836410+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"68285f1"}
+[2024-11-18T14:07:06.837445+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"68285f1"}
+[2024-11-18T14:07:06.926808+01:00] global_logger.DEBUG: request begin: model -> assoc [] {"uid":"d09f0d9"}
+[2024-11-18T14:07:06.929014+01:00] global_logger.DEBUG: modelclass: Assoc [] {"uid":"d09f0d9"}
+[2024-11-18T14:07:06.993358+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"263c7bb"}
+[2024-11-18T14:07:07.052291+01:00] global_logger.DEBUG: AssocController::custom_join_query [] {"uid":"d09f0d9"}
+[2024-11-18T14:47:16.000307+01:00] global_logger.DEBUG: request begin: model -> assoc [] {"uid":"1aa743d"}
+[2024-11-18T14:47:16.003668+01:00] global_logger.DEBUG: modelclass: Assoc [] {"uid":"1aa743d"}
+[2024-11-18T14:47:16.015751+01:00] global_logger.DEBUG: AssocController::custom_join_query [] {"uid":"1aa743d"}
+[2024-11-18T14:47:25.421122+01:00] global_logger.DEBUG: request begin: model -> assoc [] {"uid":"9afdc4d"}
+[2024-11-18T14:47:25.422985+01:00] global_logger.DEBUG: modelclass: Assoc [] {"uid":"9afdc4d"}
+[2024-11-18T14:47:25.427532+01:00] global_logger.DEBUG: AssocController::custom_join_query [] {"uid":"9afdc4d"}
+[2024-11-18T15:00:19.833240+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"66efbc3"}
+[2024-11-18T15:00:19.835706+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"66efbc3"}
+[2024-11-18T15:00:19.854182+01:00] global_logger.DEBUG: AuthController::logout [] {"uid":"ea4a62b"}
+[2024-11-18T15:01:00.021300+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"2ef2bb2"}
+[2024-11-18T15:01:00.023221+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"2ef2bb2"}
+[2024-11-18T15:01:00.035263+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"41d02e8"}
+[2024-11-18T15:01:12.962325+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"e32c9c6"}
+[2024-11-18T15:01:12.964137+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"e32c9c6"}
+[2024-11-18T15:01:13.011177+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"e5e4b08"}
+[2024-11-19T10:41:18.863769+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"4844d20"}
+[2024-11-19T10:41:18.930221+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"4844d20"}
+[2024-11-19T10:41:19.248665+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"37c4186"}
+[2024-11-19T10:41:19.456260+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"1d9c5cf"}
+[2024-11-19T10:41:19.458246+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"1d9c5cf"}
+[2024-11-19T10:41:19.611797+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"2b3fd30"}
+[2024-11-19T10:42:57.662450+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"9e13c83"}
+[2024-11-19T10:42:57.667181+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"9e13c83"}
+[2024-11-19T10:42:57.707876+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"388b5c2"}
+[2024-11-19T10:43:00.995095+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"2454da1"}
+[2024-11-19T10:43:00.998113+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"2454da1"}
+[2024-11-19T10:43:01.038398+01:00] global_logger.DEBUG: UserController::update [] {"uid":"6c51094"}
+[2024-11-19T10:43:12.150827+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"15d4ec2"}
+[2024-11-19T10:43:12.156918+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"15d4ec2"}
+[2024-11-19T10:43:12.194196+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"66e5e15"}
+[2024-11-19T10:43:12.292656+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"bcb1c5a"}
+[2024-11-19T10:43:12.293962+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"bcb1c5a"}
+[2024-11-19T10:43:12.308531+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"a3465c7"}
+[2024-11-19T10:43:16.360766+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"b7488ac"}
+[2024-11-19T10:43:16.361962+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"b7488ac"}
+[2024-11-19T10:43:16.373964+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"9ae8fb1"}
+[2024-11-19T10:43:22.773146+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"7c71274"}
+[2024-11-19T10:43:22.777797+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"7c71274"}
+[2024-11-19T10:43:22.807139+01:00] global_logger.DEBUG: AuthController::login [] {"uid":"cf2e2b1"}
+[2024-11-19T10:43:22.807717+01:00] global_logger.DEBUG: AuthController::login begin: Array (     [model] => auth     [action] => login     [condition] => Array         (             [0] => Array                 (                     [0] => email                     [1] => =                     [2] => gosiwom532@kimasoft.com                 )              [1] => Array                 (                     [0] => password                     [1] => =                     [2] => Z29zaXdvbTUzMkBraW1hc29mdC5jb20=                     [3] => AND                 )          )      [referer] => http://localhost:3003     [origin] => http://localhost:3002/login )  [] {"uid":"cf2e2b1"}
+[2024-11-19T10:43:22.807847+01:00] global_logger.DEBUG: query: SELECT  *  FROM user  WHERE  email = 'gosiwom532@kimasoft.com' AND password = '96029b0fad74f4e0ec2c6234edfa26993ad6a624' [] {"uid":"cf2e2b1"}
+[2024-11-19T10:43:22.808923+01:00] global_logger.DEBUG: records: Array (     [0] => Array         (             [id] => 328             [first_name] => gosiwom532             [last_name] => gosiwom532             [email] => gosiwom532@kimasoft.com             [usertype] => 2             [invite_link] =>              [verified_at] =>              [verification_char] => caf284f071777f6e85c0ef4c17f16139770bafa8             [created_at] => 2024-11-19 10:42:57             [updated_at] => 2024-11-19 10:43:01             [supplier_id] => 0             [location_id] => 0             [position] =>              [phone] =>              [owner_id] => 0         )  )  [] {"uid":"cf2e2b1"}
+[2024-11-19T10:43:22.809093+01:00] global_logger.DEBUG: csrf_token:: 096d7ee49ebdc7acedc890067c38e501f6e7dca0 [] {"uid":"cf2e2b1"}
+[2024-11-19T10:43:22.809185+01:00] global_logger.DEBUG: query: INSERT INTO auth  (user_id, csrf_token, origin, logged_in, created_at, updated_at) VALUES('328', '096d7ee49ebdc7acedc890067c38e501f6e7dca0', 'http://localhost:3002/', '2024-11-19 10:43:22', '2024-11-19 10:43:22', '2024-11-19 10:43:22') [] {"uid":"cf2e2b1"}
+[2024-11-19T10:43:22.811002+01:00] global_logger.DEBUG: final response:: Array (     [code] => 200     [message] => Logged-in Successful!     [data] => Array         (             [0] => Array                 (                     [id] => 328                     [first_name] => gosiwom532                     [last_name] => gosiwom532                     [email] => gosiwom532@kimasoft.com                     [usertype] => 2                     [invite_link] =>                      [verified_at] =>                      [verification_char] => caf284f071777f6e85c0ef4c17f16139770bafa8                     [created_at] => 2024-11-19 10:42:57                     [updated_at] => 2024-11-19 10:43:01                     [supplier_id] => 0                     [location_id] => 0                     [position] =>                      [phone] =>                      [owner_id] => 0                 )          )      [logged_datetime] => 2024-11-19 10:43:22 )  [] {"uid":"cf2e2b1"}
+[2024-11-19T10:43:22.811133+01:00] global_logger.DEBUG: usertype:: 2 [] {"uid":"cf2e2b1"}
+[2024-11-19T10:43:22.811202+01:00] global_logger.DEBUG: AuthController::login end: Array (     [code] => 200     [message] => Logged-in Successful!     [data] => Array         (             [0] => Array                 (                     [id] => 328                     [first_name] => gosiwom532                     [last_name] => gosiwom532                     [email] => gosiwom532@kimasoft.com                     [usertype] => 2                     [invite_link] =>                      [verified_at] =>                      [verification_char] => caf284f071777f6e85c0ef4c17f16139770bafa8                     [created_at] => 2024-11-19 10:42:57                     [updated_at] => 2024-11-19 10:43:01                     [supplier_id] => 0                     [location_id] => 0                     [position] =>                      [phone] =>                      [owner_id] => 0                 )          )      [logged_datetime] => 2024-11-19 10:43:22     [redirect] => http://localhost:3003/csrf/096d7ee49ebdc7acedc890067c38e501f6e7dca0 )  [] {"uid":"cf2e2b1"}
+[2024-11-19T10:43:23.077825+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"0441d42"}
+[2024-11-19T10:43:23.079189+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"0441d42"}
+[2024-11-19T10:43:23.094231+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"59bf76a"}
+[2024-11-19T10:43:23.335133+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"a9684c6"}
+[2024-11-19T10:43:23.337574+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"a9684c6"}
+[2024-11-19T10:43:23.351780+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"51d40d2"}
+[2024-11-19T10:43:23.417100+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"00e4f3f"}
+[2024-11-19T10:43:23.423180+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"00e4f3f"}
+[2024-11-19T10:43:23.438486+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"ad4edf7"}
+[2024-11-19T10:43:32.484281+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"6e39a6a"}
+[2024-11-19T10:43:32.486362+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"6e39a6a"}
+[2024-11-19T10:43:32.503253+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"4f00dc2"}
+[2024-11-19T10:43:32.583880+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"1a2bc0c"}
+[2024-11-19T10:43:32.587896+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"1a2bc0c"}
+[2024-11-19T10:43:32.599940+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"d7f4bf0"}
+[2024-11-19T10:43:32.746383+01:00] global_logger.DEBUG: request begin: model -> assoc [] {"uid":"659fc36"}
+[2024-11-19T10:43:32.747805+01:00] global_logger.DEBUG: modelclass: Assoc [] {"uid":"659fc36"}
+[2024-11-19T10:43:32.872514+01:00] global_logger.DEBUG: AssocController::custom_join_query [] {"uid":"659fc36"}
+[2024-11-19T10:43:34.542450+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"b326391"}
+[2024-11-19T10:43:34.543974+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"b326391"}
+[2024-11-19T10:43:34.556598+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"7f43d70"}
+[2024-11-19T10:43:34.598093+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"70a9d90"}
+[2024-11-19T10:43:34.599768+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"70a9d90"}
+[2024-11-19T10:43:34.631519+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"9f6ded0"}
+[2024-11-19T10:43:34.780117+01:00] global_logger.DEBUG: request begin: model -> assoc [] {"uid":"4483e40"}
+[2024-11-19T10:43:34.783444+01:00] global_logger.DEBUG: modelclass: Assoc [] {"uid":"4483e40"}
+[2024-11-19T10:43:34.784534+01:00] global_logger.DEBUG: request begin: model -> assoc [] {"uid":"b8b2620"}
+[2024-11-19T10:43:34.786540+01:00] global_logger.DEBUG: modelclass: Assoc [] {"uid":"b8b2620"}
+[2024-11-19T10:43:34.791292+01:00] global_logger.DEBUG: AssocController::custom_join_query [] {"uid":"4483e40"}
+[2024-11-19T10:43:34.794130+01:00] global_logger.DEBUG: AssocController::custom_join_query [] {"uid":"b8b2620"}
+[2024-11-19T10:43:38.461905+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"11271bb"}
+[2024-11-19T10:43:38.463797+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"11271bb"}
+[2024-11-19T10:43:38.479016+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"8d2688a"}
+[2024-11-19T10:43:38.543714+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"62e235f"}
+[2024-11-19T10:43:38.545693+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"62e235f"}
+[2024-11-19T10:43:38.562284+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"06c6025"}
+[2024-11-19T10:43:38.727238+01:00] global_logger.DEBUG: request begin: model -> menu [] {"uid":"e5f71ee"}
+[2024-11-19T10:43:38.730972+01:00] global_logger.DEBUG: modelclass: Menu [] {"uid":"e5f71ee"}
+[2024-11-19T10:43:38.828735+01:00] global_logger.DEBUG: MenuController::retrieve [] {"uid":"4262c00"}
+[2024-11-19T10:43:38.829322+01:00] global_logger.DEBUG: query: SELECT  *  FROM menu  WHERE  sb_id = '49' [] {"uid":"4262c00"}
+[2024-11-19T10:43:39.797957+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"c0aee8a"}
+[2024-11-19T10:43:39.799541+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"c0aee8a"}
+[2024-11-19T10:43:39.813369+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"b2a3607"}
+[2024-11-19T10:43:39.853049+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"0173d3c"}
+[2024-11-19T10:43:39.859423+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"0173d3c"}
+[2024-11-19T10:43:39.875022+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"7fc3f6c"}
+[2024-11-19T10:43:39.989897+01:00] global_logger.DEBUG: request begin: model -> location [] {"uid":"953608b"}
+[2024-11-19T10:43:39.992937+01:00] global_logger.DEBUG: modelclass: Location [] {"uid":"953608b"}
+[2024-11-19T10:43:40.136934+01:00] global_logger.DEBUG: LocationController::retrieve [] {"uid":"8bbf757"}
+[2024-11-19T10:43:41.958526+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"fe1ab39"}
+[2024-11-19T10:43:41.960223+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"fe1ab39"}
+[2024-11-19T10:43:41.973129+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"850baa4"}
+[2024-11-19T10:43:42.006849+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"a1c7d33"}
+[2024-11-19T10:43:42.008576+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"a1c7d33"}
+[2024-11-19T10:43:42.022484+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"f6f6139"}
+[2024-11-19T10:43:42.129051+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"0683241"}
+[2024-11-19T10:43:42.130495+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"0683241"}
+[2024-11-19T10:43:42.144377+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"4a7ca63"}
+[2024-11-19T10:43:42.237287+01:00] global_logger.DEBUG: request begin: model -> menu [] {"uid":"daf005d"}
+[2024-11-19T10:43:42.239277+01:00] global_logger.DEBUG: modelclass: Menu [] {"uid":"daf005d"}
+[2024-11-19T10:43:42.243720+01:00] global_logger.DEBUG: MenuController::retrieve [] {"uid":"fced768"}
+[2024-11-19T10:43:42.244304+01:00] global_logger.DEBUG: query: SELECT  *  FROM menu  WHERE  sb_id = '49' [] {"uid":"fced768"}
+[2024-11-19T10:43:56.482664+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"f521055"}
+[2024-11-19T10:43:56.485626+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"f521055"}
+[2024-11-19T10:43:56.503338+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"bf79fd9"}
+[2024-11-19T10:43:56.579429+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"cfdaf53"}
+[2024-11-19T10:43:56.580698+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"cfdaf53"}
+[2024-11-19T10:43:56.590247+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"2e76fb4"}
+[2024-11-19T10:43:56.740065+01:00] global_logger.DEBUG: request begin: model -> assoc [] {"uid":"a764b08"}
+[2024-11-19T10:43:56.741797+01:00] global_logger.DEBUG: modelclass: Assoc [] {"uid":"a764b08"}
+[2024-11-19T10:43:56.746708+01:00] global_logger.DEBUG: AssocController::custom_join_query [] {"uid":"a764b08"}
+[2024-11-19T11:32:09.628101+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"3f15a40"}
+[2024-11-19T11:32:09.632236+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"3f15a40"}
+[2024-11-19T11:32:09.670047+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"1981c75"}
+[2024-11-19T11:32:10.158298+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"91b9f5c"}
+[2024-11-19T11:32:10.160192+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"91b9f5c"}
+[2024-11-19T11:32:10.175328+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"be979fa"}
+[2024-11-19T11:32:10.259486+01:00] global_logger.DEBUG: request begin: model -> assoc [] {"uid":"4e3d001"}
+[2024-11-19T11:32:10.260975+01:00] global_logger.DEBUG: modelclass: Assoc [] {"uid":"4e3d001"}
+[2024-11-19T11:32:10.271831+01:00] global_logger.DEBUG: AssocController::custom_join_query [] {"uid":"4e3d001"}
+[2024-11-19T11:32:12.975184+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"edc9609"}
+[2024-11-19T11:32:12.977106+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"edc9609"}
+[2024-11-19T11:32:12.992067+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"969adfb"}
+[2024-11-19T11:32:13.066739+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"9da6c16"}
+[2024-11-19T11:32:13.073506+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"9da6c16"}
+[2024-11-19T11:32:13.090311+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"18df583"}
+[2024-11-19T11:32:13.207582+01:00] global_logger.DEBUG: request begin: model -> menu [] {"uid":"dff2ae6"}
+[2024-11-19T11:32:13.209457+01:00] global_logger.DEBUG: modelclass: Menu [] {"uid":"dff2ae6"}
+[2024-11-19T11:32:13.218693+01:00] global_logger.DEBUG: MenuController::retrieve [] {"uid":"7f7f67d"}
+[2024-11-19T11:32:13.220206+01:00] global_logger.DEBUG: query: SELECT  *  FROM menu  WHERE  sb_id = '49' [] {"uid":"7f7f67d"}
+[2024-11-19T11:32:18.439170+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"1b3b61a"}
+[2024-11-19T11:32:18.444101+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"1b3b61a"}
+[2024-11-19T11:32:18.458389+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"baac5d9"}
+[2024-11-19T11:32:18.515155+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"d6283f1"}
+[2024-11-19T11:32:18.516833+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"d6283f1"}
+[2024-11-19T11:32:18.528222+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"288e213"}
+[2024-11-19T11:32:18.632361+01:00] global_logger.DEBUG: request begin: model -> menu [] {"uid":"d912ae4"}
+[2024-11-19T11:32:18.633948+01:00] global_logger.DEBUG: modelclass: Menu [] {"uid":"d912ae4"}
+[2024-11-19T11:32:18.638342+01:00] global_logger.DEBUG: MenuController::retrieve [] {"uid":"3d6cedc"}
+[2024-11-19T11:32:18.638682+01:00] global_logger.DEBUG: query: SELECT  *  FROM menu  WHERE  sb_id = '49' [] {"uid":"3d6cedc"}
+[2024-11-19T11:32:19.477515+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"07a36bc"}
+[2024-11-19T11:32:19.481348+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"07a36bc"}
+[2024-11-19T11:32:19.508268+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"3828ec3"}
+[2024-11-19T11:32:19.568521+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"66b90ca"}
+[2024-11-19T11:32:19.569951+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"66b90ca"}
+[2024-11-19T11:32:19.583334+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"944a0b6"}
+[2024-11-19T11:40:13.213694+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"83992fc"}
+[2024-11-19T11:40:13.217555+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"83992fc"}
+[2024-11-19T11:40:13.246246+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"164de86"}
+[2024-11-19T11:58:45.071118+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"a7902bf"}
+[2024-11-19T11:58:45.075249+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"a7902bf"}
+[2024-11-19T11:58:45.093689+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"54b200e"}
+[2024-11-19T11:58:48.761195+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"4883bce"}
+[2024-11-19T11:58:48.762611+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"4883bce"}
+[2024-11-19T11:58:48.810008+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"a009020"}
+[2024-11-19T12:17:04.059127+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"350c9f7"}
+[2024-11-19T12:17:04.062069+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"350c9f7"}
+[2024-11-19T12:17:04.077758+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"032380f"}
+[2024-11-19T12:19:48.619785+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"e56d501"}
+[2024-11-19T12:19:48.622079+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"e56d501"}
+[2024-11-19T12:20:14.600425+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"ca4c574"}
+[2024-11-19T12:20:14.602818+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"ca4c574"}
+[2024-11-19T12:20:14.883026+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"5931633"}
+[2024-11-19T12:20:50.064399+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"06044f4"}
+[2024-11-19T12:20:50.066224+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"06044f4"}
+[2024-11-19T12:20:50.087437+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"1bfb20c"}
+[2024-11-19T12:27:37.475855+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"d4fac88"}
+[2024-11-19T12:27:37.478899+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"d4fac88"}
+[2024-11-19T12:27:37.534061+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"5949031"}
+[2024-11-19T12:38:00.476584+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"f6b8ae4"}
+[2024-11-19T12:38:00.480110+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"f6b8ae4"}
+[2024-11-19T12:38:00.503778+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"9e859da"}
+[2024-11-19T13:02:03.367333+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"d77661b"}
+[2024-11-19T13:02:03.371291+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"d77661b"}
+[2024-11-19T13:02:03.388391+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"28dc52b"}
+[2024-11-19T13:02:54.739723+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"547f176"}
+[2024-11-19T13:02:54.741136+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"547f176"}
+[2024-11-19T13:02:54.764271+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"49c67ea"}
+[2024-11-19T13:10:39.540867+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"1fc66f8"}
+[2024-11-19T13:10:39.543092+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"1fc66f8"}
+[2024-11-19T13:10:39.609447+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"d6720d5"}
+[2024-11-19T13:11:42.900259+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"b0e66e1"}
+[2024-11-19T13:11:42.901770+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"b0e66e1"}
+[2024-11-19T13:11:42.989494+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"0a56e99"}
+[2024-11-19T13:17:16.511734+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"f5edca4"}
+[2024-11-19T13:17:16.514471+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"f5edca4"}
+[2024-11-19T13:17:16.528012+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"dac4fe5"}
+[2024-11-19T13:17:19.395895+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"a81c088"}
+[2024-11-19T13:17:19.399252+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"a81c088"}
+[2024-11-19T13:17:19.410682+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"977f5c5"}
+[2024-11-19T13:22:17.274052+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"ef1c98b"}
+[2024-11-19T13:22:17.276309+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"ef1c98b"}
+[2024-11-19T13:23:29.278565+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"ca78027"}
+[2024-11-19T13:23:29.279613+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"ca78027"}
+[2024-11-19T13:24:52.933775+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"5f6f546"}
+[2024-11-19T13:24:52.935218+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"5f6f546"}
+[2024-11-19T13:25:09.544223+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"76adfe6"}
+[2024-11-19T13:25:09.545497+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"76adfe6"}
+[2024-11-19T13:25:09.594444+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"5dd03fa"}
+[2024-11-19T13:30:24.807267+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"b3b85f5"}
+[2024-11-19T13:30:24.808445+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"b3b85f5"}
+[2024-11-19T13:35:37.383332+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"a6d15c0"}
+[2024-11-19T13:35:37.387678+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"a6d15c0"}
+[2024-11-19T13:36:12.298780+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"be12787"}
+[2024-11-19T13:36:12.300321+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"be12787"}
+[2024-11-19T13:36:12.339030+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"c19186a"}
+[2024-11-19T13:36:52.027394+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"9bfe196"}
+[2024-11-19T13:36:52.029456+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"9bfe196"}
+[2024-11-19T13:36:52.076066+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"b6c2f09"}
+[2024-11-19T13:37:27.193127+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"0b8d327"}
+[2024-11-19T13:37:27.195630+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"0b8d327"}
+[2024-11-19T13:37:49.007554+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"ad59d44"}
+[2024-11-19T13:37:49.009431+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"ad59d44"}
+[2024-11-19T13:37:49.089205+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"e135432"}
+[2024-11-19T13:37:59.181850+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"66ccd61"}
+[2024-11-19T13:37:59.183135+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"66ccd61"}
+[2024-11-19T13:38:13.600055+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"08d7afe"}
+[2024-11-19T13:38:13.602153+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"08d7afe"}
+[2024-11-19T13:39:26.524195+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"8734f67"}
+[2024-11-19T13:39:26.525578+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"8734f67"}
+[2024-11-19T13:40:40.433408+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"4e1f25c"}
+[2024-11-19T13:40:40.435595+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"4e1f25c"}
+[2024-11-19T13:40:40.463812+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"de4161a"}
+[2024-11-19T13:52:39.600515+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"bc06e0a"}
+[2024-11-19T13:52:39.602662+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"bc06e0a"}
+[2024-11-19T13:52:39.620390+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"43007fc"}
+[2024-11-19T13:55:45.356864+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"67f24e8"}
+[2024-11-19T13:55:45.358033+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"67f24e8"}
+[2024-11-19T13:55:45.384463+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"8e683fe"}
+[2024-11-19T13:56:40.659151+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"d73e7e6"}
+[2024-11-19T13:56:40.660414+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"d73e7e6"}
+[2024-11-19T13:56:40.727245+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"d59186c"}
+[2024-11-19T13:58:24.084612+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"e35f175"}
+[2024-11-19T13:58:24.086262+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"e35f175"}
+[2024-11-19T13:58:24.112817+01:00] global_logger.DEBUG: UserController::update [] {"uid":"7c22788"}
+[2024-11-19T14:00:03.427232+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"3234a39"}
+[2024-11-19T14:00:03.429606+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"3234a39"}
+[2024-11-19T14:00:03.434292+01:00] global_logger.DEBUG: UserController::update [] {"uid":"c20df32"}
+[2024-11-19T14:08:50.114207+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"1f7ac60"}
+[2024-11-19T14:08:50.116496+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"1f7ac60"}
+[2024-11-19T14:08:50.122428+01:00] global_logger.DEBUG: UserController::update [] {"uid":"fcc358d"}
+[2024-11-19T14:09:10.974561+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"61ffda1"}
+[2024-11-19T14:09:10.976320+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"61ffda1"}
+[2024-11-19T14:09:11.030677+01:00] global_logger.DEBUG: AuthController::login [] {"uid":"1fc193b"}
+[2024-11-19T14:09:11.031860+01:00] global_logger.DEBUG: AuthController::login begin: Array (     [model] => auth     [action] => login     [condition] => Array         (             [0] => Array                 (                     [0] => email                     [1] => =                     [2] => gosiwom532@kimasoft.com                 )              [1] => Array                 (                     [0] => password                     [1] => =                     [2] => Z29zaXdvbTUzMkBraW1hc29mdC5jb20=                     [3] => AND                 )          )      [referer] => http://localhost:3003     [origin] => http://localhost:3002/login )  [] {"uid":"1fc193b"}
+[2024-11-19T14:09:11.031979+01:00] global_logger.DEBUG: query: SELECT  *  FROM user  WHERE  email = 'gosiwom532@kimasoft.com' AND password = '96029b0fad74f4e0ec2c6234edfa26993ad6a624' [] {"uid":"1fc193b"}
+[2024-11-19T14:09:11.032912+01:00] global_logger.DEBUG: records: Array ( )  [] {"uid":"1fc193b"}
+[2024-11-19T14:09:11.033032+01:00] global_logger.DEBUG: csrf_token:: 5d42d260a7528b93baecd2bdc825c45c794f7a11 [] {"uid":"1fc193b"}
+[2024-11-19T14:09:11.033063+01:00] global_logger.DEBUG: AuthController::login end: Array (     [code] => 201     [message] => Invalid user!     [data] => Array         (         )  )  [] {"uid":"1fc193b"}
+[2024-11-19T14:09:41.437920+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"1b5f46f"}
+[2024-11-19T14:09:41.439277+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"1b5f46f"}
+[2024-11-19T14:09:41.480342+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"62d95ea"}
+[2024-11-19T14:10:09.910626+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"4f441b4"}
+[2024-11-19T14:10:09.912023+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"4f441b4"}
+[2024-11-19T14:10:09.915691+01:00] global_logger.DEBUG: UserController::update [] {"uid":"bd2383d"}
+[2024-11-19T14:15:58.452998+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"75f759f"}
+[2024-11-19T14:15:58.454336+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"75f759f"}
+[2024-11-19T14:15:58.492470+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"8b1063e"}
+[2024-11-19T14:16:13.010447+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"212860d"}
+[2024-11-19T14:16:13.012526+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"212860d"}
+[2024-11-19T14:16:13.019714+01:00] global_logger.DEBUG: UserController::update [] {"uid":"0487f19"}
+[2024-11-20T10:58:39.677291+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"85add29"}
+[2024-11-20T10:58:39.732762+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"85add29"}
+[2024-11-20T10:58:40.087804+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"3b17407"}
+[2024-11-20T10:59:03.284600+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"cf4c610"}
+[2024-11-20T10:59:03.285663+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"cf4c610"}
+[2024-11-20T10:59:03.288755+01:00] global_logger.DEBUG: UserController::update [] {"uid":"cb2b601"}
+[2024-11-20T11:04:06.728273+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"e2f3566"}
+[2024-11-20T11:04:06.730281+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"e2f3566"}
+[2024-11-20T11:04:06.734058+01:00] global_logger.DEBUG: UserController::update [] {"uid":"80c3a96"}
+[2024-11-20T11:07:57.038686+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"b9afbd1"}
+[2024-11-20T11:07:57.040216+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"b9afbd1"}
+[2024-11-20T11:07:57.044392+01:00] global_logger.DEBUG: UserController::update [] {"uid":"a32812b"}
+[2024-11-20T11:34:37.824400+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"1b57b50"}
+[2024-11-20T11:34:37.827065+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"1b57b50"}
+[2024-11-20T11:34:37.834235+01:00] global_logger.DEBUG: UserController::update [] {"uid":"ef546d4"}
+[2024-11-20T13:16:37.537352+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"567cb28"}
+[2024-11-20T13:16:37.541003+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"567cb28"}
+[2024-11-20T13:16:37.549408+01:00] global_logger.DEBUG: UserController::update [] {"uid":"e6304d6"}
+[2024-11-20T13:16:40.920405+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"5741706"}
+[2024-11-20T13:16:40.921938+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"5741706"}
+[2024-11-20T13:16:40.926247+01:00] global_logger.DEBUG: UserController::update [] {"uid":"258fab3"}
+[2024-11-20T13:46:11.645530+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"0ea6a44"}
+[2024-11-20T13:46:11.648513+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"0ea6a44"}
+[2024-11-20T13:46:11.663524+01:00] global_logger.DEBUG: UserController::update [] {"uid":"0d19bbd"}
+[2024-11-20T14:31:33.312109+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"478f732"}
+[2024-11-20T14:31:33.315828+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"478f732"}
+[2024-11-20T14:31:33.324762+01:00] global_logger.DEBUG: UserController::update [] {"uid":"56aeb1f"}
+[2024-11-21T06:56:39.043421+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"09c58b8"}
+[2024-11-21T06:56:39.113338+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"09c58b8"}
+[2024-11-21T06:56:39.350666+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"58a7527"}
+[2024-11-21T06:56:39.489465+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"719ac7a"}
+[2024-11-21T06:56:39.491665+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"719ac7a"}
+[2024-11-21T06:56:40.003009+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"236fb3f"}
+[2024-11-21T06:56:41.769558+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"6acc60f"}
+[2024-11-21T06:56:41.771847+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"6acc60f"}
+[2024-11-21T06:56:41.796110+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"8931a97"}
+[2024-11-21T06:57:49.069925+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"31961ae"}
+[2024-11-21T06:57:49.072591+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"31961ae"}
+[2024-11-21T06:57:49.093796+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"5aef153"}
+[2024-11-21T06:57:49.630183+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"b580875"}
+[2024-11-21T06:57:49.631591+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"b580875"}
+[2024-11-21T06:57:49.643329+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"aa545c4"}
+[2024-11-21T06:58:24.704074+01:00] global_logger.DEBUG: request begin: model -> school [] {"uid":"adeef52"}
+[2024-11-21T06:58:24.705747+01:00] global_logger.DEBUG: modelclass: School [] {"uid":"adeef52"}
+[2024-11-21T06:58:24.722129+01:00] global_logger.DEBUG: request begin: model -> school [] {"uid":"d6d3edb"}
+[2024-11-21T06:58:24.724279+01:00] global_logger.DEBUG: modelclass: School [] {"uid":"d6d3edb"}
+[2024-11-21T06:58:24.813510+01:00] global_logger.DEBUG: SchoolController::retrieve [] {"uid":"adeef52"}
+[2024-11-21T06:58:24.813667+01:00] global_logger.DEBUG: SchoolController::retrieve [] {"uid":"d6d3edb"}
+[2024-11-21T06:58:24.946810+01:00] global_logger.DEBUG: request begin: model -> school [] {"uid":"62bd3ca"}
+[2024-11-21T06:58:24.948133+01:00] global_logger.DEBUG: modelclass: School [] {"uid":"62bd3ca"}
+[2024-11-21T06:58:24.950842+01:00] global_logger.DEBUG: SchoolController::retrieve [] {"uid":"62bd3ca"}
+[2024-11-21T06:58:25.103438+01:00] global_logger.DEBUG: request begin: model -> school [] {"uid":"6d5ed99"}
+[2024-11-21T06:58:25.104794+01:00] global_logger.DEBUG: modelclass: School [] {"uid":"6d5ed99"}
+[2024-11-21T06:58:25.107549+01:00] global_logger.DEBUG: SchoolController::retrieve [] {"uid":"6d5ed99"}
+[2024-11-21T06:58:34.508507+01:00] global_logger.DEBUG: request begin: model -> school [] {"uid":"f1e3393"}
+[2024-11-21T06:58:34.509650+01:00] global_logger.DEBUG: modelclass: School [] {"uid":"f1e3393"}
+[2024-11-21T06:58:34.526834+01:00] global_logger.DEBUG: SchoolController::retrieve [] {"uid":"f1e3393"}
+[2024-11-21T06:58:43.044788+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"cd3af0c"}
+[2024-11-21T06:58:43.046245+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"cd3af0c"}
+[2024-11-21T06:58:43.058238+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"09bf4cc"}
+[2024-11-21T06:58:43.279220+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"c6379e6"}
+[2024-11-21T06:58:43.280581+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"c6379e6"}
+[2024-11-21T06:58:43.292100+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"052bfca"}
+[2024-11-21T07:00:05.615951+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"0154169"}
+[2024-11-21T07:00:05.617306+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"0154169"}
+[2024-11-21T07:00:05.635404+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"7047002"}
+[2024-11-21T07:04:03.500187+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"e62510c"}
+[2024-11-21T07:04:03.503133+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"e62510c"}
+[2024-11-21T07:04:03.524959+01:00] global_logger.DEBUG: UserController::update [] {"uid":"b3be167"}
+[2024-11-21T07:05:12.522893+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"3c07417"}
+[2024-11-21T07:05:12.524750+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"3c07417"}
+[2024-11-21T07:05:12.530090+01:00] global_logger.DEBUG: UserController::update [] {"uid":"185ef44"}
+[2024-11-21T07:44:36.107050+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"0ac5c97"}
+[2024-11-21T07:44:36.187694+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"0ac5c97"}
+[2024-11-21T07:44:36.623640+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"a12c9d9"}
+[2024-11-21T08:06:43.536377+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"b1940bd"}
+[2024-11-21T08:06:43.539231+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"b1940bd"}
+[2024-11-21T08:06:43.580098+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"e8703f2"}
+[2024-11-21T08:06:56.734396+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"ca332de"}
+[2024-11-21T08:06:56.735717+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"ca332de"}
+[2024-11-21T08:06:56.739595+01:00] global_logger.DEBUG: UserController::update [] {"uid":"baf7e24"}
+[2024-11-21T08:07:13.449602+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"f8fc0de"}
+[2024-11-21T08:07:13.451132+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"f8fc0de"}
+[2024-11-21T08:07:13.454331+01:00] global_logger.DEBUG: UserController::update [] {"uid":"51e3e72"}
+[2024-11-21T08:07:27.269536+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"7895e6b"}
+[2024-11-21T08:07:27.271803+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"7895e6b"}
+[2024-11-21T08:07:27.362701+01:00] global_logger.DEBUG: AuthController::login [] {"uid":"1382f6b"}
+[2024-11-21T08:07:27.363524+01:00] global_logger.DEBUG: AuthController::login begin: Array (     [model] => auth     [action] => login     [condition] => Array         (             [0] => Array                 (                     [0] => email                     [1] => =                     [2] => gosiwom532@kimasoft.com                 )              [1] => Array                 (                     [0] => password                     [1] => =                     [2] => Z29zaXdvbTUzMkBraW1hc29mdC5jb20=                     [3] => AND                 )          )      [referer] => http://localhost:3003     [origin] => http://localhost:3002/login )  [] {"uid":"1382f6b"}
+[2024-11-21T08:07:27.363598+01:00] global_logger.DEBUG: query: SELECT  *  FROM user  WHERE  email = 'gosiwom532@kimasoft.com' AND password = '96029b0fad74f4e0ec2c6234edfa26993ad6a624' [] {"uid":"1382f6b"}
+[2024-11-21T08:07:27.364445+01:00] global_logger.DEBUG: records: Array (     [0] => Array         (             [id] => 347             [first_name] => gosiwom532             [last_name] => gosiwom532             [email] => gosiwom532@kimasoft.com             [usertype] => 2             [invite_link] =>              [verified_at] =>              [verification_char] => 8c94cfdd005ecac13db6c0e2548148522c2f6929             [created_at] => 2024-11-21 08:06:43             [updated_at] => 2024-11-21 08:07:13             [supplier_id] => 0             [location_id] => 0             [position] =>              [phone] =>              [owner_id] => 0         )  )  [] {"uid":"1382f6b"}
+[2024-11-21T08:07:27.364504+01:00] global_logger.DEBUG: csrf_token:: 7e860d251ffd1aef483c259daa890a6eb76c4ece [] {"uid":"1382f6b"}
+[2024-11-21T08:07:27.364535+01:00] global_logger.DEBUG: query: INSERT INTO auth  (user_id, csrf_token, origin, logged_in, created_at, updated_at) VALUES('347', '7e860d251ffd1aef483c259daa890a6eb76c4ece', 'http://localhost:3002/', '2024-11-21 08:07:27', '2024-11-21 08:07:27', '2024-11-21 08:07:27') [] {"uid":"1382f6b"}
+[2024-11-21T08:07:27.366996+01:00] global_logger.DEBUG: final response:: Array (     [code] => 200     [message] => Logged-in Successful!     [data] => Array         (             [0] => Array                 (                     [id] => 347                     [first_name] => gosiwom532                     [last_name] => gosiwom532                     [email] => gosiwom532@kimasoft.com                     [usertype] => 2                     [invite_link] =>                      [verified_at] =>                      [verification_char] => 8c94cfdd005ecac13db6c0e2548148522c2f6929                     [created_at] => 2024-11-21 08:06:43                     [updated_at] => 2024-11-21 08:07:13                     [supplier_id] => 0                     [location_id] => 0                     [position] =>                      [phone] =>                      [owner_id] => 0                 )          )      [logged_datetime] => 2024-11-21 08:07:27 )  [] {"uid":"1382f6b"}
+[2024-11-21T08:07:27.367047+01:00] global_logger.DEBUG: usertype:: 2 [] {"uid":"1382f6b"}
+[2024-11-21T08:07:27.367070+01:00] global_logger.DEBUG: AuthController::login end: Array (     [code] => 200     [message] => Logged-in Successful!     [data] => Array         (             [0] => Array                 (                     [id] => 347                     [first_name] => gosiwom532                     [last_name] => gosiwom532                     [email] => gosiwom532@kimasoft.com                     [usertype] => 2                     [invite_link] =>                      [verified_at] =>                      [verification_char] => 8c94cfdd005ecac13db6c0e2548148522c2f6929                     [created_at] => 2024-11-21 08:06:43                     [updated_at] => 2024-11-21 08:07:13                     [supplier_id] => 0                     [location_id] => 0                     [position] =>                      [phone] =>                      [owner_id] => 0                 )          )      [logged_datetime] => 2024-11-21 08:07:27     [redirect] => http://localhost:3003/csrf/7e860d251ffd1aef483c259daa890a6eb76c4ece )  [] {"uid":"1382f6b"}
+[2024-11-21T08:07:29.007530+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"29aef6a"}
+[2024-11-21T08:07:29.008812+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"29aef6a"}
+[2024-11-21T08:07:29.041154+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"75d01e1"}
+[2024-11-21T08:07:29.436387+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"cdde467"}
+[2024-11-21T08:07:29.437832+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"cdde467"}
+[2024-11-21T08:07:29.450807+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"2fe8ede"}
+[2024-11-21T08:07:29.521283+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"46cff65"}
+[2024-11-21T08:07:29.522729+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"46cff65"}
+[2024-11-21T08:07:29.540184+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"59be486"}
+[2024-11-21T08:08:45.856573+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"33bc639"}
+[2024-11-21T08:08:45.858470+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"33bc639"}
+[2024-11-21T08:08:45.872562+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"6f02134"}
+[2024-11-21T08:08:45.928404+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"db094d6"}
+[2024-11-21T08:08:45.930262+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"db094d6"}
+[2024-11-21T08:08:45.950416+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"ec0b21f"}
+[2024-11-21T08:08:45.948366+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"5175ac2"}
+[2024-11-21T08:08:45.951926+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"5175ac2"}
+[2024-11-21T08:08:45.970832+01:00] global_logger.DEBUG: AuthController::logout [] {"uid":"e317664"}
+[2024-11-21T08:09:30.891459+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"f91fe76"}
+[2024-11-21T08:09:30.894295+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"f91fe76"}
+[2024-11-21T08:09:30.905146+01:00] global_logger.DEBUG: AuthController::login [] {"uid":"8c3e042"}
+[2024-11-21T08:09:30.905396+01:00] global_logger.DEBUG: AuthController::login begin: Array (     [model] => auth     [action] => login     [condition] => Array         (             [0] => Array                 (                     [0] => email                     [1] => =                     [2] => gosiwom532@kimasoft.com                 )              [1] => Array                 (                     [0] => password                     [1] => =                     [2] => Z29zaXdvbTUzMkBraW1hc29mdC5jb20=                     [3] => AND                 )          )      [referer] => http://localhost:3003     [origin] => http://localhost:3002/login )  [] {"uid":"8c3e042"}
+[2024-11-21T08:09:30.905443+01:00] global_logger.DEBUG: query: SELECT  *  FROM user  WHERE  email = 'gosiwom532@kimasoft.com' AND password = '96029b0fad74f4e0ec2c6234edfa26993ad6a624' [] {"uid":"8c3e042"}
+[2024-11-21T08:09:30.905865+01:00] global_logger.DEBUG: records: Array (     [0] => Array         (             [id] => 347             [first_name] => gosiwom532             [last_name] => gosiwom532             [email] => gosiwom532@kimasoft.com             [usertype] => 2             [invite_link] =>              [verified_at] =>              [verification_char] => 8c94cfdd005ecac13db6c0e2548148522c2f6929             [created_at] => 2024-11-21 08:06:43             [updated_at] => 2024-11-21 08:07:13             [supplier_id] => 0             [location_id] => 0             [position] =>              [phone] =>              [owner_id] => 0         )  )  [] {"uid":"8c3e042"}
+[2024-11-21T08:09:30.905966+01:00] global_logger.DEBUG: csrf_token:: 01ac2a7ec4b9c8b935bfbb5e4131815eba86d340 [] {"uid":"8c3e042"}
+[2024-11-21T08:09:30.906001+01:00] global_logger.DEBUG: query: INSERT INTO auth  (user_id, csrf_token, origin, logged_in, created_at, updated_at) VALUES('347', '01ac2a7ec4b9c8b935bfbb5e4131815eba86d340', 'http://localhost:3002/', '2024-11-21 08:09:30', '2024-11-21 08:09:30', '2024-11-21 08:09:30') [] {"uid":"8c3e042"}
+[2024-11-21T08:09:30.908127+01:00] global_logger.DEBUG: final response:: Array (     [code] => 200     [message] => Logged-in Successful!     [data] => Array         (             [0] => Array                 (                     [id] => 347                     [first_name] => gosiwom532                     [last_name] => gosiwom532                     [email] => gosiwom532@kimasoft.com                     [usertype] => 2                     [invite_link] =>                      [verified_at] =>                      [verification_char] => 8c94cfdd005ecac13db6c0e2548148522c2f6929                     [created_at] => 2024-11-21 08:06:43                     [updated_at] => 2024-11-21 08:07:13                     [supplier_id] => 0                     [location_id] => 0                     [position] =>                      [phone] =>                      [owner_id] => 0                 )          )      [logged_datetime] => 2024-11-21 08:09:30 )  [] {"uid":"8c3e042"}
+[2024-11-21T08:09:30.908205+01:00] global_logger.DEBUG: usertype:: 2 [] {"uid":"8c3e042"}
+[2024-11-21T08:09:30.908230+01:00] global_logger.DEBUG: AuthController::login end: Array (     [code] => 200     [message] => Logged-in Successful!     [data] => Array         (             [0] => Array                 (                     [id] => 347                     [first_name] => gosiwom532                     [last_name] => gosiwom532                     [email] => gosiwom532@kimasoft.com                     [usertype] => 2                     [invite_link] =>                      [verified_at] =>                      [verification_char] => 8c94cfdd005ecac13db6c0e2548148522c2f6929                     [created_at] => 2024-11-21 08:06:43                     [updated_at] => 2024-11-21 08:07:13                     [supplier_id] => 0                     [location_id] => 0                     [position] =>                      [phone] =>                      [owner_id] => 0                 )          )      [logged_datetime] => 2024-11-21 08:09:30     [redirect] => http://localhost:3003/csrf/01ac2a7ec4b9c8b935bfbb5e4131815eba86d340 )  [] {"uid":"8c3e042"}
+[2024-11-21T08:09:31.219736+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"d462db2"}
+[2024-11-21T08:09:31.229840+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"d462db2"}
+[2024-11-21T08:09:31.294071+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"20da81f"}
+[2024-11-21T08:09:31.377373+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"ebd0f07"}
+[2024-11-21T08:09:31.378871+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"ebd0f07"}
+[2024-11-21T08:09:31.395287+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"c4fac7f"}
+[2024-11-21T08:09:31.466776+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"9a2037e"}
+[2024-11-21T08:09:31.468455+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"9a2037e"}
+[2024-11-21T08:09:31.488953+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"65f6514"}
+[2024-11-21T08:09:31.732553+01:00] global_logger.DEBUG: request begin: model -> assoc [] {"uid":"f071188"}
+[2024-11-21T08:09:31.734336+01:00] global_logger.DEBUG: modelclass: Assoc [] {"uid":"f071188"}
+[2024-11-21T08:09:31.890282+01:00] global_logger.DEBUG: AssocController::custom_join_query [] {"uid":"f071188"}
+[2024-11-21T08:09:38.385382+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"6a54ac0"}
+[2024-11-21T08:09:38.387254+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"6a54ac0"}
+[2024-11-21T08:09:38.404190+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"1071002"}
+[2024-11-21T08:09:38.465968+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"5cf02ab"}
+[2024-11-21T08:09:38.467547+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"5cf02ab"}
+[2024-11-21T08:09:38.510225+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"41652bd"}
+[2024-11-21T08:09:38.755604+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"cbbb8d5"}
+[2024-11-21T08:09:38.764508+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"cbbb8d5"}
+[2024-11-21T08:09:38.775715+01:00] global_logger.DEBUG: UserController::retrieve [] {"uid":"45acbf3"}
+[2024-11-21T08:09:38.830148+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"3739544"}
+[2024-11-21T08:09:38.832337+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"3739544"}
+[2024-11-21T08:09:38.879808+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"d59845b"}
+[2024-11-21T08:09:38.911790+01:00] global_logger.DEBUG: request begin: model -> image [] {"uid":"0a5adb1"}
+[2024-11-21T08:09:38.912938+01:00] global_logger.DEBUG: modelclass: Image [] {"uid":"0a5adb1"}
+[2024-11-21T08:09:39.069919+01:00] global_logger.DEBUG: ImageController::retrieve [] {"uid":"c1b5dd9"}
+[2024-11-21T08:10:34.561576+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"fdd50c9"}
+[2024-11-21T08:10:34.563078+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"fdd50c9"}
+[2024-11-21T08:10:34.574256+01:00] global_logger.DEBUG: AuthController::loggedData [] {"uid":"fa9d939"}
+[2024-11-21T08:10:34.654575+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"9947c27"}
+[2024-11-21T08:10:34.656382+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"9947c27"}
+[2024-11-21T08:10:34.654923+01:00] global_logger.DEBUG: request begin: model -> auth [] {"uid":"7b9bbf7"}
+[2024-11-21T08:10:34.658059+01:00] global_logger.DEBUG: modelclass: Auth [] {"uid":"7b9bbf7"}
+[2024-11-21T08:10:34.671839+01:00] global_logger.DEBUG: AuthController::logout [] {"uid":"0f1f572"}
+[2024-11-21T08:10:34.681775+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"a04160d"}
+[2024-11-21T08:17:09.467098+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"cae0ce7"}
+[2024-11-21T08:17:09.469291+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"cae0ce7"}
+[2024-11-21T08:17:09.512100+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"403d218"}
+[2024-11-21T08:17:28.958968+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"05137fd"}
+[2024-11-21T08:17:28.959911+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"05137fd"}
+[2024-11-21T08:17:28.963206+01:00] global_logger.DEBUG: UserController::update [] {"uid":"bfe60b4"}
+[2024-11-21T08:22:22.151561+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"2405bf9"}
+[2024-11-21T08:22:22.152685+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"2405bf9"}
+[2024-11-21T08:22:22.186536+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"252ac12"}
+[2024-11-21T08:32:51.041111+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"69c279a"}
+[2024-11-21T08:32:51.042915+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"69c279a"}
+[2024-11-21T08:32:51.062486+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"73aea8c"}
+[2024-11-21T08:41:33.556354+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"e7f812f"}
+[2024-11-21T08:41:33.558594+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"e7f812f"}
+[2024-11-21T08:41:49.385466+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"b1b50d2"}
+[2024-11-21T08:41:49.386829+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"b1b50d2"}
+[2024-11-21T08:41:49.432322+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"f6962e2"}
+[2024-11-21T08:43:16.631297+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"6b255a7"}
+[2024-11-21T08:43:16.632386+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"6b255a7"}
+[2024-11-21T08:43:16.648266+01:00] global_logger.DEBUG: SupplierController::retrieve [] {"uid":"c780557"}
+[2024-11-21T08:45:21.536058+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"e0243e0"}
+[2024-11-21T08:45:21.537868+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"e0243e0"}
+[2024-11-21T08:45:21.581233+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"3cc88f9"}
+[2024-11-21T08:46:08.625346+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"c734c29"}
+[2024-11-21T08:46:08.626708+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"c734c29"}
+[2024-11-21T08:46:08.705847+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"160a943"}
+[2024-11-22T10:41:27.880917+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"5f4dc92"}
+[2024-11-22T10:41:27.943196+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"5f4dc92"}
+[2024-11-22T10:41:28.322860+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"9e9d76c"}
+[2024-11-22T10:50:57.453195+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"16d39d6"}
+[2024-11-22T10:50:57.455929+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"16d39d6"}
+[2024-11-22T10:50:57.519552+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"5bff458"}
+[2024-11-22T10:53:53.166904+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"fdd8dac"}
+[2024-11-22T10:53:53.169866+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"fdd8dac"}
+[2024-11-22T10:53:53.199365+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"95b6d6e"}
+[2024-11-22T10:55:35.116889+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"a588d7e"}
+[2024-11-22T10:55:35.118803+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"a588d7e"}
+[2024-11-22T10:55:35.187056+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"415c302"}
+[2024-11-22T11:02:21.359854+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"f3d001f"}
+[2024-11-22T11:02:21.361482+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"f3d001f"}
+[2024-11-22T11:02:21.389954+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"a48e8f7"}
+[2024-11-22T11:06:39.182248+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"e7f5649"}
+[2024-11-22T11:06:39.183991+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"e7f5649"}
+[2024-11-22T11:06:39.239474+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"989a627"}
+[2024-11-22T11:19:50.771904+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"d6c5adb"}
+[2024-11-22T11:19:50.774964+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"d6c5adb"}
+[2024-11-22T11:19:50.815775+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"71db1b9"}
+[2024-11-22T11:25:04.327577+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"fcef989"}
+[2024-11-22T11:25:04.330196+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"fcef989"}
+[2024-11-22T11:25:04.362616+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"0a6190c"}
+[2024-11-22T11:26:11.177484+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"dba9d95"}
+[2024-11-22T11:26:11.179102+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"dba9d95"}
+[2024-11-22T11:26:11.260901+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"f13d811"}
+[2024-11-22T11:44:23.920173+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"40a1b90"}
+[2024-11-22T11:44:23.925836+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"40a1b90"}
+[2024-11-22T11:44:23.964364+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"6a91351"}
+[2024-11-22T11:45:21.878899+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"6394bbf"}
+[2024-11-22T11:45:21.880607+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"6394bbf"}
+[2024-11-22T11:45:21.897467+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"3b740eb"}
+[2024-11-22T11:47:42.658894+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"0200ade"}
+[2024-11-22T11:47:42.661008+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"0200ade"}
+[2024-11-22T11:47:42.735147+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"9ee8c81"}
+[2024-11-22T11:49:47.228085+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"aec530c"}
+[2024-11-22T11:49:47.229768+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"aec530c"}
+[2024-11-22T11:49:47.285154+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"46a21cf"}
+[2024-11-22T11:56:19.410966+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"cbc2c6d"}
+[2024-11-22T11:56:19.413140+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"cbc2c6d"}
+[2024-11-22T11:56:19.456515+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"f96f813"}
+[2024-11-22T11:58:41.744308+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"a42e8f2"}
+[2024-11-22T11:58:41.746351+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"a42e8f2"}
+[2024-11-22T11:58:41.806909+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"bacb0e6"}
+[2024-11-22T12:11:27.684054+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"bf1e93d"}
+[2024-11-22T12:11:27.686578+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"bf1e93d"}
+[2024-11-22T12:11:27.708875+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"94087e8"}
+[2024-11-22T12:12:35.188053+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"ed20b3c"}
+[2024-11-22T12:12:35.190551+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"ed20b3c"}
+[2024-11-22T12:12:35.211222+01:00] global_logger.DEBUG: UserController::update [] {"uid":"eb3356b"}
+[2024-11-22T12:22:40.791546+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"9e9e8d2"}
+[2024-11-22T12:22:40.793564+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"9e9e8d2"}
+[2024-11-22T12:22:40.799354+01:00] global_logger.DEBUG: UserController::update [] {"uid":"782c464"}
+[2024-11-22T12:23:13.777284+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"1057cf1"}
+[2024-11-22T12:23:13.779220+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"1057cf1"}
+[2024-11-22T12:23:13.783830+01:00] global_logger.DEBUG: UserController::update [] {"uid":"d15498d"}
+[2024-11-22T12:24:53.077094+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"6367446"}
+[2024-11-22T12:24:53.079065+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"6367446"}
+[2024-11-22T12:24:53.098505+01:00] global_logger.DEBUG: UserController::update [] {"uid":"9e53ea8"}
+[2024-11-22T12:34:33.097090+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"d43ae5c"}
+[2024-11-22T12:34:33.100147+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"d43ae5c"}
+[2024-11-22T12:34:33.109250+01:00] global_logger.DEBUG: UserController::update [] {"uid":"8a2c12b"}
+[2024-11-22T12:35:09.096861+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"084a740"}
+[2024-11-22T12:35:09.098312+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"084a740"}
+[2024-11-22T12:35:09.105629+01:00] global_logger.DEBUG: UserController::update [] {"uid":"a725346"}
+[2024-11-22T12:35:25.380738+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"6e0e972"}
+[2024-11-22T12:35:25.382518+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"6e0e972"}
+[2024-11-22T12:35:25.389311+01:00] global_logger.DEBUG: UserController::update [] {"uid":"00926a8"}
+[2024-11-22T12:35:45.662352+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"3cf9113"}
+[2024-11-22T12:35:45.663911+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"3cf9113"}
+[2024-11-22T12:35:45.671720+01:00] global_logger.DEBUG: UserController::update [] {"uid":"d2d35a4"}
+[2024-11-22T12:37:05.152342+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"1932453"}
+[2024-11-22T12:37:05.154821+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"1932453"}
+[2024-11-22T12:37:05.183415+01:00] global_logger.DEBUG: UserController::update [] {"uid":"c33c3b4"}
+[2024-11-22T12:42:44.034159+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"decd8f7"}
+[2024-11-22T12:42:44.036473+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"decd8f7"}
+[2024-11-22T12:43:23.134352+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"19dc3bf"}
+[2024-11-22T12:43:23.136493+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"19dc3bf"}
+[2024-11-22T12:43:23.148924+01:00] global_logger.DEBUG: UserController::update [] {"uid":"852a10b"}
+[2024-11-22T12:47:38.560529+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"dc9a823"}
+[2024-11-22T12:47:38.562890+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"dc9a823"}
+[2024-11-22T12:48:11.162157+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"c1006e4"}
+[2024-11-22T12:48:11.164285+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"c1006e4"}
+[2024-11-22T12:48:11.177864+01:00] global_logger.DEBUG: UserController::update [] {"uid":"f7e63a7"}
+[2024-11-22T12:48:37.702718+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"2371045"}
+[2024-11-22T12:48:37.704812+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"2371045"}
+[2024-11-22T12:48:37.737718+01:00] global_logger.DEBUG: UserController::update [] {"uid":"9b2f0dc"}
+[2024-11-22T12:49:00.926994+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"7ea41d5"}
+[2024-11-22T12:49:00.928446+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"7ea41d5"}
+[2024-11-22T12:49:00.940918+01:00] global_logger.DEBUG: UserController::update [] {"uid":"0dd5396"}
+[2024-11-22T12:49:40.926859+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"1e64ae9"}
+[2024-11-22T12:49:40.928527+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"1e64ae9"}
+[2024-11-22T12:49:40.940900+01:00] global_logger.DEBUG: UserController::update [] {"uid":"69b96fd"}
+[2024-11-22T13:15:08.857697+01:00] global_logger.DEBUG: request begin: model -> supplier [] {"uid":"d61bab4"}
+[2024-11-22T13:15:08.862804+01:00] global_logger.DEBUG: modelclass: Supplier [] {"uid":"d61bab4"}
+[2024-11-22T13:15:08.928714+01:00] global_logger.DEBUG: SupplierController::register [] {"uid":"851291f"}
+[2024-11-22T13:15:48.840923+01:00] global_logger.DEBUG: request begin: model -> user [] {"uid":"b522760"}
+[2024-11-22T13:15:48.842406+01:00] global_logger.DEBUG: modelclass: User [] {"uid":"b522760"}
+[2024-11-22T13:15:48.856914+01:00] global_logger.DEBUG: UserController::update [] {"uid":"4f006c0"}

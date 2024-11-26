@@ -1,0 +1,14 @@
+{
+    "require": {
+        "alek13/slack": "^2.2",
+        "phpmailer/phpmailer": "^6.8",
+        "mailgun/mailgun-php": "^4.1",
+        "symfony/http-client": "^6.4",
+        "nyholm/psr7": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

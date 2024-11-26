@@ -1,0 +1,505 @@
+ {
+   "5": {
+         "menu": {
+            "Dashboard": {
+               "enabled": true,
+               "url": "/customer-dashboard",
+               "title": "Dashboard",
+               "icon": "bi bi-menu-button-wide-fill",
+               "order": 1
+            },
+            "Orders": {
+               "enabled": true,
+               "url": "/customer-orders",
+               "icon": "bi bi-boxes",
+               "title": "Orders",
+               "order": 2
+            },
+            "Profile": {
+               "enabled": true,
+               "url": "/customer-profile",
+               "icon" : "bi bi-person-fill",
+               "title": "Profile",
+               "order": 3
+            }
+      }
+   },
+   "3": {
+         "menu": {
+            "Dashboard": {
+               "enabled": true,
+               "url": "/dashboard",
+               "title": "Dashboard",
+               "icon": "bi bi-menu-button-wide-fill",
+               "order": 1
+            },
+            "bookings": {
+               "enabled": true,
+               "url": "/bookings",
+               "title": "Bookings",
+               "icon": "bi bi-journal-text",
+               "order": 2
+            },
+            
+            "Profile": {
+               "enabled": true,
+               "url": "/organizers-profile",
+               "title": "Profile",
+               "icon": "fa-solid fa-gear",
+               "order": 9
+            }
+      }
+   },
+   "2": {
+         "menu": {
+            "Dashboard": {
+               "enabled": true,
+               "url": "/dashboard",
+               "title": "Dashboard",
+               "icon": "<i class='fa-solid fa-xl fa-gauge'></i>",
+               "order": 1
+            },
+            "bookings": {
+               "enabled": true,
+               "url": "/bookings",
+               "title": "My Bookings",
+               "icon": "<i class='fa-solid fa-xl fa-book'></i>",
+               "order": 2
+            },
+            "menus": {
+               "enabled": true,
+               "url": "/menus",
+               "title": "Menus",
+               "icon": "<i class='fa-solid fa-xl fa-utensils'></i><span>",
+               "order": 3
+            },
+            "inventory": {
+               "enabled": true,
+               "url": "/inventory",
+               "title": "Inventory",
+               "icon": "<i class='fa-solid fa-xl fa-cubes-stacked'></i><span>",
+               "order": 4,
+               "sub_menus": {
+                  "ingredient": {
+                     "enabled": true,
+                     "url": "/ingredient",
+                     "title": "Ingredients"
+                  },
+                  "recipe": {
+                     "enabled": true,
+                     "url": "/recipe",
+                     "title": "Recipes"
+                  },
+                  "product": {
+                     "enabled": true,
+                     "url": "/product",
+                     "title": "Products"
+                  },
+                  "sizing": {
+                     "enabled": true,
+                     "url": "/sizing",
+                     "title": "Sizing"
+                  },
+                  "option": {
+                     "enabled": true,
+                     "url": "/option",
+                     "title": "Options"
+                  },
+                  "optionset": {
+                     "enabled": true,
+                     "url": "/optionset",
+                     "title": "Option Sets"
+                  }
+               }
+            },
+            "finance": {
+               "enabled": true,
+               "url": "/finance",
+               "title": "Finance",
+               "icon": "<i class='fa-solid fa-xl fa-sack-dollar'></i><span>",
+               "order": 5
+            },
+            "users": {
+               "enabled": true,
+               "url": "/users",
+               "title": "Users",
+               "icon": "<i class='fa-solid fa-xl fa-user'></i>",
+               "order": 6
+            },
+            "Location": {
+               "enabled": true,
+               "url": "/location",
+               "title": "Locations",
+               "icon": "<i class='fa-solid fa-xl fa-location-dot'></i><span>",
+               "order": 7
+            },
+            "support": {
+               "enabled": true,
+               "url": "/support",
+               "title": "Support",
+               "icon": "fa-solid fa-headset",
+               "order": 8
+            },
+            "settings": {
+               "enabled": true,
+               "url": "/settings",
+               "title": "Settings",
+               "icon": "<i class='fa-solid fa-xl fa-gear'></i><span>",
+               "order": 9
+            }
+         }
+   },
+   "1":{
+         "menu": {
+            "Dashboard": {
+               "enabled": true,
+               "url": "/admin-dashboard",
+               "title": "Dashboard",
+               "icon": "<i class='fa-solid fa-xl fa-gauge'></i><span>",
+               "order": 1
+            },
+            "Orders": {
+               "enabled": true,
+               "url": "/orders-admin",
+               "title": "Orders",
+               "icon": "<i class='fa-solid fa-xl fa-book'></i>",
+               "order": 2
+            },
+            "Bookings": {
+               "enabled": true,
+               "url": "/bookings-admin",
+               "title": "Bookings",
+               "icon": "<i class='fa-solid fa-xl fa-book'></i>",
+               "order": 3
+            },
+            "CRM": {
+               "enabled": true,
+               "url": "/crm",
+               "title": "CRM",
+               "icon": "<i class='fa-solid fa-xl fa-cubes-stacked'></i>",
+               "order": 4,
+               "sub_menus": {
+                  "Dashboard": {
+                     "enabled": true,
+                     "url": "/crm-dashboard-admin",
+                     "title": "Dashboard"
+                  },
+                  "Directory": {
+                     "enabled": true,
+                     "url": "/crm-directory-admin",
+                     "title": "Directory"
+                  },
+                  "Customer": {
+                     "enabled": true,
+                     "url": "/crm-customer",
+                     "title": "Customer",
+                     "sub_menus":{
+                        "Profile":{
+                           "enabled": true,
+                           "url": "/crm-profile-customer-admin",
+                           "title": "Profile"
+                        },
+                        "Organisations":{
+                           "enabled": true,
+                           "url": "/crm-organisations-customer-admin",
+                           "title": "Organisations"
+                        },
+                        "Companies":{
+                           "enabled": true,
+                           "url": "/crm-companies-customer-admin",
+                           "title": "Companies"
+                        },
+                        "Contacts":{
+                           "enabled": true,
+                           "url": "/crm-contacts-customer-admin",
+                           "title": "Contacts"
+                        },
+                        "Leads":{
+                           "enabled": true,
+                           "url": "/crm-leads-customer-admin",
+                           "title": "Leads"
+                        },
+                        "Proposals":{
+                           "enabled": true,
+                           "url": "/crm-proposals-customer-admin",
+                           "title": "Proposals"
+                        },
+                        "Events":{
+                           "enabled": true,
+                           "url": "/crm-events-customer-admin",
+                           "title": "events"
+                        }
+                     }
+                     
+                  },
+                  "Supplier": {
+                     "enabled": true,
+                     "url": "/crm-supplier",
+                     "title": "Supplier",
+                     "sub_menus":{
+                        "Companies":{
+                           "enabled": true,
+                           "url": "/crm-companies-supplier-admin",
+                           "title": "Companies"
+                        },
+                        "Contacts":{
+                           "enabled": true,
+                           "url": "/crm-contacts-supplier-admin",
+                           "title": "Contacts"
+                        }
+                     }
+                  },
+                  "Organisers": {
+                     "enabled": true,
+                     "url": "/crm-organisers",
+                     "title": "Organisers",
+                     "sub_menus":{
+                        "Organisations":{
+                           "enabled": true,
+                           "url": "/crm-organisations-organisers-admin",
+                           "title": "Organisations"
+                        },
+                        "Companies":{
+                           "enabled": true,
+                           "url": "/crm-companies-organisers-admin",
+                           "title": "Companies"
+                        },
+                        "Contacts":{
+                           "enabled": true,
+                           "url": "/crm-contacts-organisers-admin",
+                           "title": "Contacts"
+                        }
+                     }
+                  }
+               }
+            },
+            "HR": {
+               "enabled": true,
+               "url": "/hr",
+               "title": "HR",
+               "icon": "<i class='fa-solid fa-xl fa-book'></i>",
+               "order": 5,
+               "sub_menus":{
+                        "Policy Library":{
+                           "enabled": true,
+                           "url": "/hr-policylibrary-admin",
+                           "title": "Policy Library"
+                        },
+                        "Surveys":{
+                           "enabled": true,
+                           "url": "/hr-surveys-admin",
+                           "title": "Surveys"
+                        },
+                        "Scheduling":{
+                           "enabled": true,
+                           "url": "/hr-scheduling-admin",
+                           "title": "Scheduling",
+                           "sub_menus":{
+                                 "Time Clock":{
+                                    "enabled": true,
+                                    "url": "/hr-scheduling-timeclock-admin",
+                                    "title": "Time Clock"
+                                 },
+                                 "Rosters":{
+                                    "enabled": true,
+                                    "url": "/hr-scheduling-rosters-admin",
+                                    "title": "Rosters"
+                                 }
+                              }
+                        },
+                        "Incidents":{
+                           "enabled": true,
+                           "url": "/hr-incidents-admin",
+                           "title": "Incidents"
+                        },
+                        "Recognation":{
+                           "enabled": true,
+                           "url": "/hr-recognation-admin",
+                           "title": "Recognation"
+                        },
+                        "Perks":{
+                           "enabled": true,
+                           "url": "/hr-perks-admin",
+                           "title": "Perks"
+                        },
+                        "Wellbeing":{
+                           "enabled": true,
+                           "url": "/hr-wellbeing-admin",
+                           "title": "Wellbeing"
+                        },
+                        "Training":{
+                           "enabled": true,
+                           "url": "/hr-training-admin",
+                           "title": "Training"
+                        },
+                        "People":{
+                           "enabled": true,
+                           "url": "/hr-people-admin",
+                           "title": "People",
+                           "sub_menus":{
+                                 "Staff Files":{
+                                    "enabled": true,
+                                    "url": "/hr-people-stafffiles-admin",
+                                    "title": "Staff Files"
+                                 },
+                                 "Onboarding":{
+                                    "enabled": true,
+                                    "url": "/hr-people-onboarding-admin",
+                                    "title": "Onboarding"
+                                 },
+                                 "Recruitment":{
+                                    "enabled": true,
+                                    "url": "/hr-people-recruitment-admin",
+                                    "title": "Recruitment"
+                                 }
+                              }
+                        }
+                     }
+            },
+            "Files": {
+               "enabled": true,
+               "url": "/files-admin",
+               "title": "Files",
+               "icon": "<i class='fa-regular fa-xl fa-file'></i>",
+               "order": 6
+            },
+            "Features": {
+               "enabled": true,
+               "url": "/features-admin",
+               "title": "Features",
+               "icon": "<i class='fa-solid fa-xl fa-location-dot'></i>",
+               "order": 7
+            },
+            "Finance": {
+               "enabled": true,
+               "url": "/finance-admin",
+               "title": "Finance",
+               "icon": "<i class='fa-solid fa-xl fa-sack-dollar'></i>",
+               "order": 8,
+               "sub_menus":{
+                     "Scorecard":{
+                        "enabled": true,
+                        "url": "/finance-scorecard-admin",
+                        "title": "Scorecard"
+                     },
+                     "Accounts Payable":{
+                        "enabled": true,
+                        "url": "/finance-accountspayable-admin",
+                        "title": "Accounts Payable"
+                     },
+                     "Accounts Receivable":{
+                        "enabled": true,
+                        "url": "/finance-accountsreceivable-admin",
+                        "title": "Accounts Receivable"
+                     },
+                     "Subscriptions":{
+                        "enabled": true,
+                        "url": "/finance-subscriptions-admin",
+                        "title": "Subscriptions"
+                     },
+                     "Invoices":{
+                        "enabled": true,
+                        "url": "/finance-invoices-admin",
+                        "title": "Invoices"
+                     },
+                     "Quotes":{
+                        "enabled": true,
+                        "url": "/finance-quotes-admin",
+                        "title": "Quotes"
+                     }
+                  }
+            },
+            "Support": {
+               "enabled": true,
+               "url": "/support-admin",
+               "title": "Support",
+               "icon": "<i class='fa-solid fa-xl fa-user'></i>",
+               "order": 9
+            },
+            "Settings": {
+               "enabled": true,
+               "url": "/settings-admin",
+               "title": "Settings",
+               "icon": "<i class='fa-solid fa-xl fa-gear'></i>",
+               "order": 9,
+               "sub_menus":{
+                     "CRM":{
+                        "enabled": true,
+                        "url": "/settings-crm-admin",
+                        "title": "CRM"
+                     },
+                     "Users & Permission":{
+                        "enabled": true,
+                        "url": "/settings-users-permission-admin",
+                        "title": "Users & Permission"
+                     },
+                     "Finance":{
+                        "enabled": true,
+                        "url": "/settings-finance-admin",
+                        "title": "Finance",
+                        "sub_menus":{
+                                 "Accounting Software":{
+                                    "enabled": true,
+                                    "url": "/settings-finanace-accountingsoftware-admin",
+                                    "title": "Accounting Software"
+                                 },
+                                 "Invoicing":{
+                                    "enabled": true,
+                                    "url": "/settings-finance-invoicing-admin",
+                                    "title": "Invoicing"
+                                 },
+                                 "Quoting":{
+                                    "enabled": true,
+                                    "url": "/settings-finance-quoting-admin",
+                                    "title": "Quoting"
+                                 }
+                        }
+                     }
+                  }
+
+            },
+            "Menus": {
+               "enabled": true,
+               "url": "/menus-admin",
+               "title": "menus",
+               "icon": "<i class='fa-solid fa-xl fa-pizza-slice'></i>",
+               "order": 10
+            },
+            "Channel": {
+               "enabled": true,
+               "url": "/channel-admin",
+               "title": "Channel",
+               "icon": "<i class='fa-solid fa-xl fa-home'></i>",
+               "order": 11,
+               "sub_menus":{
+                     "Channels":{
+                        "enabled": true,
+                        "url": "/channels",
+                        "title": "Channels"
+                     },
+                     "Customer":{
+                        "enabled": true,
+                        "url": "/channel-customer-admin",
+                        "title": "Customer"
+                     },
+                     "Organiser":{
+                        "enabled": true,
+                        "url": "/channel-organiser-admin",
+                        "title": "Organiser"
+                     },
+                     "Supplier":{
+                        "enabled": true,
+                        "url": "/channel-supplier-admin",
+                        "title": "Supplier"
+                     },
+                     "Billing":{
+                        "enabled": true,
+                        "url": "/channel-billing-admin",
+                        "title": "Billing"
+                     }
+               }
+            }
+         }
+
+      }
+}

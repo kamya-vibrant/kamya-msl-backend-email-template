@@ -1,0 +1,12 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "monolog/monolog": "^3.7",
+        "nyholm/psr7": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
